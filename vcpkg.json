@@ -1,0 +1,6 @@
+{
+  "name": "check-vcpkg",
+  "version": "0.1.0",
+  "description": "A template for fast spiriMirror vcpkg check",
+  "dependencies": []
+}
