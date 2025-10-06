@@ -1,0 +1,15 @@
+{
+  "default-registry": {
+    "kind": "git",
+    "baseline": "7476f0d4e77d3333fbb249657df8251c28c4faae",
+    "repository": "https://github.com/microsoft/vcpkg"
+  },
+  "registries": [
+    {
+      "kind": "git",
+      "repository": "https://github.com/spiriMirror/vcpkg-registry",
+      "baseline": "HEAD",
+      "packages": []
+    }
+  ]
+}
