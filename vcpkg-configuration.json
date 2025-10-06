@@ -1,15 +1,16 @@
 {
   "default-registry": {
     "kind": "git",
-    "baseline": "7476f0d4e77d3333fbb249657df8251c28c4faae",
+    "baseline": "30d7c1678dd97d3501ff5e7a786b014ded607860",
     "repository": "https://github.com/microsoft/vcpkg"
   },
   "registries": [
     {
       "kind": "git",
-      "repository": "https://github.com/spiriMirror/vcpkg-registry",
-      "baseline": "HEAD",
-      "packages": []
+      "repository": "https://github.com/spiriMirror/vcpkg",
+      "baseline": "0d270d06badca5173aebda9b1d6fc19e91379e10",
+      "packages": ["muda"]
     }
-  ]
+  ],
+  "overlay-ports": ["./local-ports"]
 }
