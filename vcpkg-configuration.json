@@ -4,12 +4,7 @@
     "baseline": "30d7c1678dd97d3501ff5e7a786b014ded607860",
     "repository": "https://github.com/microsoft/vcpkg"
   },
-  "registries": [
-    {
-      "kind": "git",
-      "repository": "https://github.com/spiriMirror/vcpkg",
-      "baseline": "b92d4be959340db684afe5960b79dd258fe42be3",
-      "packages": ["octree"]
-    }
+  "overlay-ports": [
+    "./local-ports"
   ]
 }
