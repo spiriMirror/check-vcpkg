@@ -8,9 +8,8 @@
     {
       "kind": "git",
       "repository": "https://github.com/spiriMirror/vcpkg",
-      "baseline": "0d270d06badca5173aebda9b1d6fc19e91379e10",
-      "packages": ["muda"]
+      "baseline": "b92d4be959340db684afe5960b79dd258fe42be3",
+      "packages": ["octree"]
     }
-  ],
-  "overlay-ports": ["./local-ports"]
+  ]
 }
